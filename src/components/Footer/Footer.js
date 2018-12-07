@@ -6,8 +6,8 @@ const footer = (props) => (
 
   <Aux>
 
-    <div className={classes.quotesWrapper} >
-
+    <div className={classes.footerWrapper} >
+    
 
 
     </div>
