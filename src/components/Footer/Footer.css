@@ -99,3 +99,357 @@
   margin-bottom: 48px;
 
 }
+.formInput{
+  background-clip: padding-box;
+  ;
+  background-color:
+    rgb(255, 255, 255);
+  background-image:
+    none;
+  border-bottom-color:
+    rgba(120, 130, 140, 0.2);
+  border-bottom-left-radius:
+    0px;
+  border-bottom-right-radius:
+    0px;
+  border-bottom-style:
+    solid;
+  border-bottom-width:
+    1px;
+  border-image-outset:
+    0px;
+  border-image-repeat:
+    stretch;
+  border-image-slice:
+    100%;
+  border-image-source:
+    none;
+  border-image-width:
+    1;
+  border-left-color:
+    rgba(120, 130, 140, 0.2);
+  border-left-style:
+    solid;
+  border-left-width:
+    1px;
+  border-right-color:
+    rgba(120, 130, 140, 0.2);
+  border-right-style:
+    solid;
+  border-right-width:
+    1px;
+  border-top-color:
+    rgba(120, 130, 140, 0.2);
+  border-top-left-radius:
+    0px;
+  border-top-right-radius:
+    0px;
+  border-top-style:
+    solid;
+  border-top-width:
+    1px;
+  box-sizing:
+    border-box;
+  color:
+    rgb(85, 89, 92);
+  cursor:
+    text;
+  display:
+    block;
+  font-family:
+    "Segoe UI", "Trebuchet MS", "PT Sans", "Helvetica Neue", HelveticaNeue-Light, Helvetica, Arial, sans-serif;
+  font-size:
+    16px;
+  font-stretch:
+    100%;
+  font-style:
+    normal;
+  font-variant-caps:
+    normal;
+  font-variant-east-asian:
+    normal;
+  font-variant-ligatures:
+    normal;
+  font-variant-numeric:
+    normal;
+  font-weight:
+    400;
+  height:
+    38px;
+  letter-spacing:
+    normal;
+  line-height:
+    20px;
+  margin-bottom:
+    0px;
+  margin-left:
+    0px;
+  margin-right:
+    0px;
+  margin-top:
+    0px;
+  min-height:
+    38px;
+  overflow-x:
+    visible;
+  overflow-y:
+    visible;
+  padding-bottom:
+    8px;
+  padding-left:
+    12px;
+  padding-right:
+    12px;
+  padding-top:
+    8px;
+  text-align:
+    start;
+  text-indent:
+    0px;
+  text-rendering:
+    auto;
+  text-shadow:
+    none;
+  text-size-adjust:
+    100%;
+  text-transform:
+    none;
+  touch-action:
+    manipulation;
+  width:
+    188.25px;
+  word-spacing:
+    0px;
+  writing-mode:
+    horizontal-tb;
+  -webkit-appearance:
+    none;
+  -webkit-font-smoothing:
+    antialiased;
+  -webkit-rtl-ordering:
+    logical;
+  -webkit-tap-highlight-color:
+    rgba(0, 0, 0, 0);
+  -webkit-border-image:
+    none;
+  padding: 8px 12px;
+  width: 80%;
+  opacity: .85;
+}
+.formButton{
+  align-items:
+flex-start
+;
+background-color:
+rgba(0, 0, 0, 0)
+;
+border-bottom-color:
+rgb(28, 32, 43)
+;
+border-bottom-left-radius:
+500px
+;
+border-bottom-right-radius:
+500px
+;
+border-bottom-style:
+solid
+;
+border-bottom-width:
+1px
+;
+border-image-outset:
+0px
+;
+border-image-repeat:
+stretch
+;
+border-image-slice:
+100%
+;
+border-image-source:
+none
+;
+border-image-width:
+1
+;
+border-left-color:
+rgb(28, 32, 43)
+;
+border-left-style:
+solid
+;
+border-left-width:
+1px
+;
+border-right-color:
+rgb(28, 32, 43)
+;
+border-right-style:
+solid
+;
+border-right-width:
+1px
+;
+border-top-color:
+rgb(28, 32, 43)
+;
+border-top-left-radius:
+500px
+;
+border-top-right-radius:
+500px
+;
+border-top-style:
+solid
+;
+border-top-width:
+1px
+;
+box-shadow:
+none
+;
+box-sizing:
+border-box
+;
+color:
+rgba(0, 0, 0, 0.87)
+;
+cursor:
+pointer
+;
+display:
+inline-block
+;
+font-family:
+"Segoe UI", "Trebuchet MS", "PT Sans", "Helvetica Neue", HelveticaNeue-Light, Helvetica, Arial, sans-serif
+;
+font-size:
+14px
+;
+font-stretch:
+100%
+;
+font-style:
+normal
+;
+font-variant-caps:
+normal
+;
+font-variant-east-asian:
+normal
+;
+font-variant-ligatures:
+normal
+;
+font-variant-numeric:
+normal
+;
+font-weight:
+500
+;
+height:
+30px
+;
+letter-spacing:
+normal
+;
+line-height:
+17.5px
+;
+margin-bottom:
+0px
+;
+margin-left:
+0px
+;
+margin-right:
+0px
+;
+margin-top:
+16px
+;
+outline-color:
+rgba(0, 0, 0, 0.87)
+;
+outline-style:
+none
+;
+outline-width:
+0px
+;
+overflow-x:
+visible
+;
+overflow-y:
+visible
+;
+padding-bottom:
+5.512px
+;
+padding-left:
+16.8px
+;
+padding-right:
+16.8px
+;
+padding-top:
+5.512px
+;
+text-align:
+center
+;
+text-indent:
+0px
+;
+text-rendering:
+auto
+;
+text-shadow:
+none
+;
+text-size-adjust:
+100%
+;
+text-transform:
+none
+;
+touch-action:
+manipulation
+;
+user-select:
+none
+;
+vertical-align:
+middle
+;
+white-space:
+nowrap
+;
+width:
+97.1563px
+;
+word-spacing:
+0px
+;
+writing-mode:
+horizontal-tb
+;
+-webkit-appearance:
+none
+;
+-webkit-font-smoothing:
+antialiased
+;
+-webkit-tap-highlight-color:
+rgba(0, 0, 0, 0)
+;
+-webkit-border-image:
+none
+padding
+}
+.formButton:hover{
+  background-color: #1C202B;
+  color: #fff;
+
+}

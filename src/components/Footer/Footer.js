@@ -35,8 +35,8 @@ const footer = (props) => (
               <h6 className={classes.newsLetterHeader}>Subscribe</h6>
               <p>Do not want to miss our newsletter?</p>
               <form className={classes.form}>
-                <input type="text" placeholder="Your email" />
-                <button type="submit" >Subscribe</button>
+                <input type="text" className={classes.formInput} placeholder="Your email" />
+                <button type="submit" className={classes.formButton}>Subscribe</button>
               </form>
             </div>
           </div>
