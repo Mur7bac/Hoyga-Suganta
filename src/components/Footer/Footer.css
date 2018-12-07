@@ -1,0 +1,101 @@
+.footerWrapper{
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+.innerWrapper{
+  padding: 24px;
+  line-height: 21px;
+
+}
+.footer{
+  padding: 24px 0;
+}
+.contact{
+  margin: 0 -8px;
+}
+.footerLogo{
+  display: block;
+  float: left;
+  padding: 0 8px;
+  position: relative;
+  width: 25%;
+  height: 223px;
+  margin-top: 20px;
+}
+.span{
+  color: #373a3c;
+  font-family: Poppins,"Trebuchet MS","PT Sans","Helvetica Neue",HelveticaNeue-Light,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 4px;
+}
+.span:hover{
+  color: #02B875;
+  text-decoration: none;
+}
+.social{
+  display: block;
+  float: left;
+  padding: 0 8px;
+  position: relative;
+  width: 25%;
+  height: 141px;
+}
+.socailHeader{
+  font-family: Poppins,"Trebuchet MS","PT Sans","Helvetica Neue",HelveticaNeue-Light,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.64px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+.socailLinks{
+  margin-bottom: 24px;
+  height: 84px;
+}
+.socailLinksList{
+  color: rgba(0,0,0,.87);
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.socailLink a{
+  text-align: left;
+  color: #373a3c;
+}
+.socailLink a:hover{
+  color: #02B875;
+  text-decoration: none;
+}
+.newsLetter{
+  float: left;
+  height: 223px;
+  padding: 0 8px;
+  width: 25%;
+}
+.newsLetterHeader{
+  font-family: Poppins,"Trebuchet MS","PT Sans","Helvetica Neue",HelveticaNeue-Light,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.64px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+.newsLetter p{
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 21px;
+}
+.form{
+  margin-bottom: 48px;
+
+}
