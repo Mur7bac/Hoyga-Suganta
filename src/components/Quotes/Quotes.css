@@ -1,0 +1,59 @@
+.quotesWrapper{
+  background-image: url(./b10.jpg);
+  background-position-x: 50%;
+  background-position-y: 28%;
+  background-size: cover;
+  position: relative;
+z-index: 1;
+
+}
+
+.odhaahyo{
+  display: table;
+  z-index: 1;
+  color: rgba(255,255,255,.87);
+  height: 100%;
+  width: 100%;
+}
+.odhaah{
+  display: table-cell;
+  float: none;
+  width: 33.333333%;
+}
+.odhaahWrapper{
+  padding: 48px;
+  line-height: 21px;
+  text-align: center;
+
+}
+.odhaahHeader{
+  margin: 48px 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  font-family: Poppins,"Trebuchet MS","PT Sans","Helvetica Neue",HelveticaNeue-Light,Helvetica,Arial,sans-serif;
+  text-align: center;
+  color:  rgba(255, 255, 255, 0.87);
+  opacity: 1;
+  z-index: 1;
+}
+.odhaahPraghraf{
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 48px;
+  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.87);
+  text-transform: uppercase;
+}
+.quotesWrapper::after{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    top: 0;
+    background-color: rgb(23, 23, 27);
+    opacity: .65;
+    content: '';
+    width: 100%;
+    box-sizing: inherit;
+}

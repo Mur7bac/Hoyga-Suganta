@@ -1,0 +1,13 @@
+.appContent{
+  box-shadow: none;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+}
+.appContent::after, .arrow:after, .arrow:before, .list-body:after, .list-item::after, .navside .nav li a::after, .ui-check>i:before {
+    content: "";
+  }
+.appContent::after {
+      display: table;
+      clear: both;
+  }

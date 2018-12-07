@@ -1,0 +1,61 @@
+.bannerWrapper{
+  background: #fff;
+  color: rgba(0,0,0,.87);
+  display: table;
+  height: 527px;
+  line-height: 21px;
+  table-layout: fixed;
+  width: 100%;
+
+}
+.leftCol{
+  display: table-cell;
+  float: none;
+  height: 527px;
+  line-height: 21px;
+  min-height: 1px;
+  width: 25%;
+}
+.righCol{
+  display: block;
+  padding: 48px;
+  text-align: center;
+  width: 70%;
+  height: 527px;
+}
+.bannerHeader{
+    font-family: Poppins,"Trebuchet MS","PT Sans","Helvetica Neue",HelveticaNeue-Light,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -1.60px;
+    margin: 48px 0;
+    text-align: center;
+    line-height: 62px;
+}
+.bannerPraghref{
+  font-size: 18px;
+  Color: rgba(0, 0, 0, 0.87);
+  line-height: 27px;
+  margin-bottom: 48px;
+  opacity: 0.6;
+
+}
+.bannerLink{
+  background-color: transparent;
+  width: 120px;
+  height: 36px;
+  padding: 7px 24px;
+  margin-bottom: 48px;
+  border-radius: 500px;
+  border-color: rgb(23, 23, 27);
+  border-style: solid;
+  font-size: 16px;
+  font-weight: 500;
+  border-width: thin;
+  color: rgb(23, 23, 27);
+}
+.bannerLink:hover{
+  Color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+  background-color: rgb(23, 23, 27);
+}

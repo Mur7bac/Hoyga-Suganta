@@ -1,0 +1,12 @@
+.sliderWrapper{
+  background-color: #17171B;
+  color: rgba(255,255,255,.87);
+  height: 387px;
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+h1{
+  color: #fff;
+}
