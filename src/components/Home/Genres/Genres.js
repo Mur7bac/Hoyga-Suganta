@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Genres.css';
-import Aux from '../../hoc/Wrapper';
+import Aux from '../../../hoc/Wrapper';
 
 const genre = (props) => (
 
@@ -12,7 +12,7 @@ const genre = (props) => (
           <div className={classes.cusubText}>
             <h3 className={classes.cusubHeader}>Heeso Cusub</h3>
             <p className={classes.cusubPraghref}>Get ready for high sound quality.</p>
-            <a href="soon.html" className={classes.cusubLink}>Dhagayso</a>
+            <a href="/" className={classes.cusubLink}>Dhagayso</a>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@ const genre = (props) => (
             <div className={classes.cusubText}>
               <h3 className={classes.cusubHeader}>Qaraami</h3>
               <p className={classes.cusubPraghref}>Listen to your favorite Old school songs.</p>
-              <a href="soon.html" className={classes.cusubLink}>Dhagayso</a>
+              <a href="/" className={classes.cusubLink}>Dhagayso</a>
             </div>
           </div>
         </div>

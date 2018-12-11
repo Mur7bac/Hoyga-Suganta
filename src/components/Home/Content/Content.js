@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Content.css';
-import Aux from '../../hoc/Wrapper';
+import Aux from '../../../hoc/Wrapper';
 
 const content = (props) => (
 

@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
-import Layout from './components/Layout/Layout';
-import Content from './components/Content/Content';
-import Header from './components/Header/Header';
-import Body from './components/Body/Body';
-import Slider from './components/Slider/Slider';
-import Genres from './components/Genres/Genres';
-import Banner from './components/Banner/Banner';
-import Quotes from './components/Quotes/Quotes';
-import Footer from './components/Footer/Footer';
+import Home from './containers/Home/Home';
+import Error from './components/Error/Error';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 
 
@@ -15,22 +9,16 @@ class App extends Component {
   render() {
     return (
 
-      <div className="Murabac">
-        <Layout>
+      <BrowserRouter>
 
-          <Content>
-            <Header />
-            <Body>
-              <Slider />
-              <Genres />
-              <Banner />
-              <Quotes />
-            </Body>
-            <Footer />
-          </Content>
+        <Switch>
 
-        </Layout>
-      </div>
+          <Route path="/" component={Home} exact />
+          <Route  component={Error}/>
+
+        </Switch>
+
+      </BrowserRouter>
 
     );
   }
