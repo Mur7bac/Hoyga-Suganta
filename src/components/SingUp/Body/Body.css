@@ -1,7 +1,7 @@
 .bt{
   height: 505px;
   width: 100%;
-  
+
 }
 .body{
   width: 344px;
@@ -108,30 +108,11 @@
   padding: 13px 48px;
   background-color: #17171b;
   color: rgba(255,255,255,.87);
-
+  margin-bottom: 5px;
 
 }
 .SingInButton:hover{
   background-color: #333336;
-}
-.forgot{
-  margin: 16px 0;
-
-}
-.forgotLink{
-  color: rgba(0,0,0,.87);
-  font-weight: 600;
-  text-align: center;
-  font-size: 14px;
-
-}
-.forgotLink:hover{
-  text-decoration: none;
-  color: rgba(0,0,0,.77);
-}
-.forgotLink:focus{
-  text-decoration: none;
-  color: rgba(0,0,0,.77);
 }
 
 .doNotHave{
@@ -146,4 +127,24 @@
 .SingUp:hover{
   text-decoration: none;
   color: #025AB5;
+}
+.terms{
+  margin-bottom: 10px;
+}
+.info{
+  color: #818a91!important;
+  font-size: 12.8px;
+  line-height: 19.2px;
+
+}
+.links{
+  color: rgba(0,0,0,.87);
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-align: center;
+
+}
+.links:hover{
+  color: rgba(0,0,0,.87);
+  text-decoration: none;
 }

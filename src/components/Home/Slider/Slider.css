@@ -10,3 +10,38 @@
 h1{
   color: #fff;
 }
+.header1{
+  font-family: Poppins,"Trebuchet MS","PT Sans","Helvetica Neue",HelveticaNeue-Light,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  margin: 90px 0 48px;
+  letter-spacing: -1.6px;
+  line-height: 44px;
+
+}
+.header2{
+  font-family: Poppins,"Trebuchet MS","PT Sans","Helvetica Neue",HelveticaNeue-Light,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 17.6px;
+  margin-bottom: 48px;
+  opacity: 0.6;
+}
+.link{
+  padding: 7px 24px;
+  margin-bottom: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid rgb(2, 184, 117);
+  border-radius: 500px;
+  color: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+.link:hover{
+  background-color: #02B875;
+  color: #fff;
+  text-decoration: none;
+}

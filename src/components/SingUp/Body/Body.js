@@ -35,33 +35,30 @@ const body = (props) => (
           <div className={classes.or}>OR</div>
 
           <form name="form" action="">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Username" required />
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email" required />
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control" placeholder="Password" required />
-          </div>
-            <div className={classes.checkbox}>
-              <label className={classes.checkboxLabel}>
-                <input type="checkbox" className={classes.checkboxInput}/>
-                <i className="primary"></i> Keep me signed in
-              </label>
+            <div className="form-group">
+              <input type="text" className="form-control" placeholder="Username" required />
             </div>
-            <button type="submit" className={classes.SingInButton}>Sign in</button>
+            <div className="form-group">
+              <input type="email" className="form-control" placeholder="Email" required />
+            </div>
+            <div className="form-group">
+              <input type="password" className="form-control" placeholder="Password" required />
+            </div>
+
+            <div className={classes.terms}>
+              <span className={classes.info}>By clicking Sign Up, I agree to the </span>
+              <a href="#" className={classes.links}>Terms of service</a>
+              <span className={classes.info}> and </span>
+              <a href="#" className={classes.links}>Policy Privacy.</a>
+            </div>
+              <button type="submit" className={classes.SingInButton}>Sign up</button>
           </form>
 
 
-          <Link to="/forgotPassword">
-          <div className={classes.forgot}>
-            <a className={classes.forgotLink}>Forgot password?</a>
-          </div>
-          </Link>
+
           <div className={classes.doNotHave}>
-            Do not have an account?
-            <Link to="/SingUp"><a href="signup.html" className={classes.SingUp}>Sign up</a></Link>
+            Allready have an account?
+            <Link to="/SingIn"><a  className={classes.SingUp}>Sign ip</a></Link>
           </div>
 
         </div>

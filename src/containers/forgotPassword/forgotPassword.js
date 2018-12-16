@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classes from './forgotPassword.css';
 import Layout from '../../components/Layout/Layout';
 import Logo from '../../components/SingIn/Logo/Logo';
-import Body from '../../components/SingIn/Body/Body';
+import Body from '../../components/Forgot/Body/Body';
 
 
 class ForgotPassword extends Component {
@@ -11,8 +11,9 @@ class ForgotPassword extends Component {
 
 
         <Layout>
-          <div className={classes.forgotPassword}>
-            <h1>hi</h1>
+          <div className={classes.Forgot}>
+            <Logo />
+            <Body />
           </div>
         </Layout>
 
