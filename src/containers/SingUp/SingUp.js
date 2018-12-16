@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import Layout from '../../components/Layout/Layout';
+import classes from './SingUp.css';
+import Logo from '../../components/SingIn/Logo/Logo';
+import Body from '../../components/SingUp/Body/Body';
 
 
 class SingUp extends Component {
   render() {
     return (
 
-      <div className="Murabac">
+      <div className={classes.SingUp}>
         <Layout>
-            <h1>SingUp</h1>
+          <Logo />
+          <Body />
         </Layout>
       </div>
 

@@ -25,22 +25,25 @@ const body = (props) => (
           <div className={classes.socialApi}>
             <a href="#" className={classes.facebook}>
               <i className="fab fa-facebook-f fa-lg pull-left" style={divStyle}></i>
-              Sign in with Facebook
+              Sign up with Facebook
             </a>
             <a href="#" className={classes.google}>
               <i className="fab fab fa-google-plus-g fa-lg pull-left" style={divStyle}></i>
-              Sign in with Google+
+              Sign up with Google+
             </a>
           </div>
           <div className={classes.or}>OR</div>
 
           <form name="form" action="">
-            <div className="form-group">
-              <input type="email" className="form-control" placeholder="Email" required style={inputStyle}/>
-            </div>
-            <div className="form-group">
-              <input type="password" className="form-control" placeholder="password" required style={inputStyle}/>
-            </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Username" required />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email" required />
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" placeholder="Password" required />
+          </div>
             <div className={classes.checkbox}>
               <label className={classes.checkboxLabel}>
                 <input type="checkbox" className={classes.checkboxInput}/>
@@ -49,6 +52,8 @@ const body = (props) => (
             </div>
             <button type="submit" className={classes.SingInButton}>Sign in</button>
           </form>
+
+
           <Link to="/forgotPassword">
           <div className={classes.forgot}>
             <a className={classes.forgotLink}>Forgot password?</a>
