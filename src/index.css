@@ -19,8 +19,13 @@ body {
     margin: 0;
     padding: 0;
     background: white;
+    overflow: hidden;
 }
 html{
     background: white;
     height: 100%;
+    overflow: hidden;
+}
+h1{
+  color: #f21;
 }

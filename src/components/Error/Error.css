@@ -15,7 +15,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -63,10 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     opacity: 0.2;
   }
 }
-body {
-  background-color: #482472;
-  font-family: Poppins;
-}
+
 
 .scenery {
   position: absolute;

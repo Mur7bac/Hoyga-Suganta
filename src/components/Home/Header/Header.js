@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Header.css';
 import Aux from '../../../hoc/Wrapper';
+import {NavLink, Link} from 'react-router-dom';
 
 const header = (props) => (
 
@@ -14,8 +15,8 @@ const header = (props) => (
         </a>
 
         <ul className={classes.pullRight, "pull-right"}>
-            <li className={classes.singUp}><a href="/../../containers/SingIn" className={classes.singUpLink}>Signup</a></li>
-            <li className={classes.singIn}><a href="/../../containers/SingIn" className={classes.singInLink}><span className={classes.singInButton}>Signin</span></a></li>
+            <Link to="/SingUp"><li className={classes.singUp}><a  className={classes.singUpLink}>Signup</a></li></Link>
+            <Link to="/SingIn"><li className={classes.singIn}><a  className={classes.singInLink}><span className={classes.singInButton}>Signin</span></a></li></Link>
         </ul>
       </div>
 
