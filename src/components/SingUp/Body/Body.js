@@ -8,7 +8,9 @@ const divStyle = {
 };
 
 
-
+const linkStyle = {
+  textDecoration: 'none'
+};
 
 const body = (props) => (
 
@@ -52,7 +54,7 @@ const body = (props) => (
 
           <div className={classes.doNotHave}>
             Allready have an account?
-            <Link to="/SingIn"><a  className={classes.SingUp}>Sign ip</a></Link>
+            <Link to="/SingIn" style={linkStyle}><span  className={classes.SingUp}>Sign in</span></Link>
           </div>
 
         </div>

@@ -10,9 +10,9 @@ const logo = (props) => (
         <div className={classes.navbar}>
             <div className={classes.pullCenter}>
             <Link to="/">
-            <a  href="/" className={classes.brand}>
+            <span className={classes.brand}>
              <img src="./logo.png" alt="." className={classes.brandImage} />
-              <span className="hidden-folded inline">Hoyga Suganta</span></a></Link>
+              <span className="hidden-folded inline">Hoyga Suganta</span></span></Link>
             </div>
         </div>
     </div>

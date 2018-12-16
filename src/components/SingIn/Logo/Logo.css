@@ -8,13 +8,14 @@
   border-top: none;
   border-left: none;
   border-right: none;
+  overflow: hidden;
 }
 .navbar{
 
   height: 56px;
 }
 .pullCenter{
-  width: 100%;
+  width: 500px;
   height: 56px;
   position: absolute;
   left: 43%;

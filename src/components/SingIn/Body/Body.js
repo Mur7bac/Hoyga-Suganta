@@ -13,9 +13,9 @@ const inputStyle = {
   fontWeight: '400',
   color: '#55595c'
 };
-
-
-
+const linkStyle = {
+  textDecoration: 'none'
+};
 const body = (props) => (
 
   <Aux>
@@ -49,14 +49,14 @@ const body = (props) => (
             </div>
             <button type="submit" className={classes.SingInButton}>Sign in</button>
           </form>
-          <Link to="/forgotPassword">
+          <Link to="/forgotPassword" style={linkStyle}>
           <div className={classes.forgot}>
-            <a className={classes.forgotLink}>Forgot password?</a>
+            <span href="/" className={classes.forgotLink}>Forgot password?</span>
           </div>
           </Link>
           <div className={classes.doNotHave}>
             Do not have an account?
-            <Link to="/SingUp"><a href="signup.html" className={classes.SingUp}>Sign up</a></Link>
+            <Link to="/SingUp" style={linkStyle}><span href="/" className={classes.SingUp}>Sign up</span></Link>
           </div>
 
         </div>

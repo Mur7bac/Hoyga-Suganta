@@ -8,6 +8,9 @@ const inputStyle = {
   padding: '18px'
 };
 
+const linkStyle = {
+  textDecoration: 'none'
+};
 const body = (props) => (
 
   <Aux>
@@ -28,7 +31,7 @@ const body = (props) => (
 
           <div className={classes.back}>
 
-            Return to <Link to="/SingIn"><span  className={classes.SingIn}>Sign in</span></Link>
+            Return to <Link to="/SingIn" style={linkStyle}><span  className={classes.SingIn}>Sign in</span></Link>
           </div>
 
         </div>
