@@ -28,7 +28,7 @@ const body = (props) => (
 
           <div className={classes.back}>
 
-            Return to <Link to="/SingIn"><a  className={classes.SingIn}>Sign in</a></Link>
+            Return to <Link to="/SingIn"><span  className={classes.SingIn}>Sign in</span></Link>
           </div>
 
         </div>

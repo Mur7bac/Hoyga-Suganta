@@ -7,12 +7,6 @@ const divStyle = {
     padding: '2px 0 0 0'
 };
 
-const inputStyle = {
-  fontFamily:  'Roboto',
-  fontSize: '16px',
-  fontWeight: '400',
-  color: '#55595c'
-};
 
 
 
@@ -23,11 +17,11 @@ const body = (props) => (
       <div className={classes.body}>
         <div className={classes.bodyWrapper}>
           <div className={classes.socialApi}>
-            <a href="#" className={classes.facebook}>
+            <a href="/" className={classes.facebook}>
               <i className="fab fa-facebook-f fa-lg pull-left" style={divStyle}></i>
               Sign up with Facebook
             </a>
-            <a href="#" className={classes.google}>
+            <a href="/" className={classes.google}>
               <i className="fab fab fa-google-plus-g fa-lg pull-left" style={divStyle}></i>
               Sign up with Google+
             </a>
@@ -47,9 +41,9 @@ const body = (props) => (
 
             <div className={classes.terms}>
               <span className={classes.info}>By clicking Sign Up, I agree to the </span>
-              <a href="#" className={classes.links}>Terms of service</a>
+              <a href="/" className={classes.links}>Terms of service</a>
               <span className={classes.info}> and </span>
-              <a href="#" className={classes.links}>Policy Privacy.</a>
+              <a href="/" className={classes.links}>Policy Privacy.</a>
             </div>
               <button type="submit" className={classes.SingInButton}>Sign up</button>
           </form>

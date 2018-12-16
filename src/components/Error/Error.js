@@ -16,7 +16,7 @@ const body = (props) => (
       <span>404</span>
       <p>PAGE NOT FOUND</p>
       <Link to="/" style={linkStyle}>
-        <p className={classes.hmpg}><a href='#' className={classes.back}>Back To Home</a></p>
+        <p className={classes.hmpg}><a href="/" className={classes.back}>Back To Home</a></p>
       </Link>
       </div>
     </div>

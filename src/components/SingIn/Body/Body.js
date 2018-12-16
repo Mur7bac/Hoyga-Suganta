@@ -23,11 +23,11 @@ const body = (props) => (
       <div className={classes.body}>
         <div className={classes.bodyWrapper}>
           <div className={classes.socialApi}>
-            <a href="#" className={classes.facebook}>
+            <a href="/" className={classes.facebook}>
               <i className="fab fa-facebook-f fa-lg pull-left" style={divStyle}></i>
               Sign in with Facebook
             </a>
-            <a href="#" className={classes.google}>
+            <a href="/" className={classes.google}>
               <i className="fab fab fa-google-plus-g fa-lg pull-left" style={divStyle}></i>
               Sign in with Google+
             </a>

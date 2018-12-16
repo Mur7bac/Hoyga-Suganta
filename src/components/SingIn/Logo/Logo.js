@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import classes from './Logo.css';
 import Aux from '../../../hoc/Wrapper';
 
@@ -10,7 +10,7 @@ const logo = (props) => (
         <div className={classes.navbar}>
             <div className={classes.pullCenter}>
             <Link to="/">
-            <a  className={classes.brand}>
+            <a  href="/" className={classes.brand}>
              <img src="./logo.png" alt="." className={classes.brandImage} />
               <span className="hidden-folded inline">Hoyga Suganta</span></a></Link>
             </div>
