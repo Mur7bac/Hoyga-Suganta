@@ -101,3 +101,17 @@ text-decoration: none;
   width: 100%;
   box-sizing: inherit;
 }
+@media (max-width: 500px) {
+
+.cusubHeader{
+  font-size: 44px;
+  line-height: 29px;
+}
+
+.genreWrapper{
+  display: block;
+
+  width: 100%;
+  height: 453px;
+}
+}

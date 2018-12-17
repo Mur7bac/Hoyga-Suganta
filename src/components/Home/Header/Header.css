@@ -130,3 +130,11 @@
   border-top-left-radius: 500px;
   border-top-right-radius: 500px;
 }
+@media (max-width: 500px) {
+  .span{
+  font-size: 18px;
+  }
+.brand{
+  margin: 0;
+}
+}

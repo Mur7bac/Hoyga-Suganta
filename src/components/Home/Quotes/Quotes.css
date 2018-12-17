@@ -57,3 +57,12 @@ z-index: 1;
     width: 100%;
     box-sizing: inherit;
 }
+@media (max-width: 500px) {
+
+.quotesWrapper{
+  display: none;
+}
+.righCol{
+    display: none;
+}
+}

@@ -20,6 +20,7 @@ class App extends Component {
           <Route path="/SingIn" component={SingIn} />
           <Route path="/SingUp" component={SingUp} />
           <Route path="/forgotPassword" component={ForgotPassword} />
+          <Route path="/forgotPassword" component={ForgotPassword} />
           <Route  component={Error}/>
 
         </Switch>

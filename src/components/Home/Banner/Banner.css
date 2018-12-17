@@ -2,7 +2,7 @@
   background: #fff;
   color: rgba(0,0,0,.87);
   display: table;
-  height: 527px;
+  height: 427px;
   line-height: 21px;
   table-layout: fixed;
   width: 100%;
@@ -58,4 +58,13 @@
   Color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
   background-color: rgb(23, 23, 27);
+}
+@media (max-width: 500px) {
+
+.leftCol{
+  display: none;
+}
+.righCol{
+    display: none;
+}
 }

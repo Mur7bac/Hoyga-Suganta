@@ -453,3 +453,23 @@ padding
   color: #fff;
 
 }
+@media (max-width: 500px) {
+
+.span{
+  font-size: 20px;
+}
+.newsLetter{
+  display: none;
+}
+.social{
+float: right;
+}
+.footer{
+  padding: 0;
+  margin: 0;
+
+}
+.footerLogo{
+  height: 150px;
+}
+}
