@@ -42,3 +42,12 @@
   width: 32px;
   height: 32px;
 }
+@media (max-width: 500px) {
+  .pullCenter{
+    left: 30%;
+  }
+  .navbar{
+    height: 36px;
+  }
+
+}
