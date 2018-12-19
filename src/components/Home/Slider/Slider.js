@@ -18,7 +18,7 @@ const slider = (props) => (
           <div className="col-lg-12 text-center">
             <h2 className={classes.header1}>First Somali Music platform</h2>
             <h6 className={classes.header2}>Find old and new somali music</h6>
-            <Link to="/" style={linkStyle}><span  className={classes.link}>Start listening </span></Link>
+            <Link to="/Browse" style={linkStyle}><span  className={classes.link}>Start listening </span></Link>
           </div>
         </div>
       </div>

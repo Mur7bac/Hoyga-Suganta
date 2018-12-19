@@ -472,4 +472,5 @@ float: right;
 .footerLogo{
   height: 150px;
 }
+.footerLogo svg{}
 }

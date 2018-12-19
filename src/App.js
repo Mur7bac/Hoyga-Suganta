@@ -3,6 +3,7 @@ import Home from './containers/Home/Home';
 import SingIn from './containers/SingIn/SingIn';
 import SingUp from './containers/SingUp/SingUp';
 import ForgotPassword from './containers/forgotPassword/forgotPassword';
+import Browse from './containers/Browse/Browse';
 import Error from './components/Error/Error';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path="/SingIn" component={SingIn} />
           <Route path="/SingUp" component={SingUp} />
           <Route path="/forgotPassword" component={ForgotPassword} />
+          <Route path="/Browse" component={Browse} />
           <Route  component={Error}/>
 
         </Switch>
