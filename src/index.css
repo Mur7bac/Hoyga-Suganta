@@ -24,8 +24,14 @@ body {
 html{
     background: white;
     height: 100%;
-  
+
 }
 h1{
   color: #f21;
+}
+a{
+    color: rgba(0,0,0,.87);
+}
+a:focus{
+  color: rgba(0,0,0,.87);
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classes from './Browse.css';
 import Layout from '../../components/Layout/Layout';
 import Content from '../../components/Home/Content/Content';
-import Header from '../../components/Browse/Header/Header';
+import Header from '../../components/Player/Header/Header';
 
 
 
